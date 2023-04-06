@@ -1,6 +1,6 @@
 {
   "TermsOfServiceVersion": 1,
-  "TermsAgreedToWhen": "2023-04-06T11:37:02Z",
+  "TermsAgreedToWhen": "2023-04-06T11:44:25Z",
   "IdClaims": [
     {
       "Claim": "t:jcmag22"
@@ -9,15 +9,31 @@
       "Claim": "mdon:@jcmag@mastodon.social"
     }
   ],
-  "IdDisclaims": null,
+  "IdDisclaims": [
+    {
+      "Claim": "med:no-account"
+    },
+    {
+      "Claim": "pat:no-account"
+    },
+    {
+      "Claim": "post:no-account"
+    },
+    {
+      "Claim": "spout:no-account"
+    },
+    {
+      "Claim": "ss:no-account"
+    }
+  ],
   "Signature": {
     "Authority": "https://whosum.com",
     "PublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApF0NC9C13limzP9H5\u002BcXoWEddOfjDdysecEWNhNxS3yCWdRJjsCpIWY3euUxIFWw9W9Zkbo1tx8YbnLVdCPd7qORelTZZR5I9IvQdsyyqZIeAuw4xk/VcK119Kme13cqhsjOtgCrdekjz5YEklZqXdZKclJMc2fqHjOfHl07lYXWmqx8FxCUjjGCkBcr4WZD/uvs0SXRACkXS01bP0Wbao1sHxyFoADHV5i8Yvg2o32Sy37DMMMOfjO8ZpqqwNKVEs04gGL\u002BnGkDqNP/6lIaTinrzCJe57qcorGcVlWGdV4nC5uMgIgqZ/7pzrCHF5WbXai3g3AObmPJ5eG8TCTsrQIDAQAB",
-    "Nonce": "0ced2891ec7b397c5fe9e2ce",
-    "Timestamp": "2023-04-06T11:41:40Z",
-    "Signature": "811846ba35880808c5d68ecac31a18d90fa927a2ce435f5f4044b191b9a74d02b85fb9e269516b27a44e75e0a77bc35d7c8444edd314757b73a18b852376ab9172afea775e2b1b7622fe53a415a1ed3e2837c5c95cefcdb83cab098e5508dbb4376d0c274818b7898ea0fea176d0c8871bb253b94339e492a70802d6cef92a2e102bc733ca934e931c6b6a174620fa204b4ed42a8372e5d5f643079d72a436ffb652c0199390ff97cdfa5f92f5198058db930745c978ba9f42a9348aa3aa2c6c31a3f758eded0e32e694155ecd50b2dce784d628defaea99a6242b7986ad32d37cab81ec877b64617ec6ca79b7a5d7e6f3f9270db17788b831cf4941092f518a"
+    "Nonce": "cddee657499e868ae1c94f6a",
+    "Timestamp": "2023-04-06T11:45:28Z",
+    "Signature": "3532c6f7d0000a5ebe249ed3dc5e4b4624d0f79e9f5459ad1acb6a9e14bd66e308d26379faa607a3b82574256dccfcf72b61012cfbd08d7ffa6aac4613d21788ad0ad1fa15013ee3b9836be782fef1502f9c77aad17174b12f6716469803d43908cb73530fe0fc3acd30d7eb88576086d8475070ec85245097767f5cecb4e84032389e4b6c683648d9680c18488db3a76cf847e548850de664cc151032770d54baacaae85ecda835e9fa14dbd00b38739f25cc7ebe7d2e633dc2915e5f0f9050c7dd9819926a441a840e3a35e4de18df4321051e6f9ba3ec334a2b609425507ddfc98ab778da56e6c890b4b9892acc4d3cc9f20b7fb8752495a37b2d1eabb144"
   },
   "AgreedToTerms": true,
-  "ContentSha256": "726ad6728049f183ce30794816c6bc6842fd06035f84563cbce77db745b5c9d6",
-  "ContentToHash": "v1|mdon:@jcmag@mastodon.social,t:jcmag22|2023-04-06T11:37:02Z"
+  "ContentSha256": "9c0f98b793b494e56b378cde643457e6515c0b19e55114e2a570e10d976c051d",
+  "ContentToHash": "v1|mdon:@jcmag@mastodon.social,med:no-account,pat:no-account,post:no-account,spout:no-account,ss:no-account,t:jcmag22|2023-04-06T11:44:25Z"
 }
